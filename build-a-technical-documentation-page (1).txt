@@ -1,0 +1,192 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical Documentation</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <header>
+        <h2>Navigation</h2>
+    </header>
+    <a href="#javascript_and_java" class="nav-link">JavaScript and Java</a>
+    <a href="#python_and_ruby" class="nav-link">Python and Ruby</a>
+    <a href="#html_and_css" class="nav-link">HTML and CSS</a>
+    <a href="#php_and_sql" class="nav-link">PHP and SQL</a>
+    <a href="#react_and_angular" class="nav-link">React and Angular</a>
+</nav>
+
+
+
+<main id="main-doc">
+    <section id="javascript_and_java" class="main-section">
+        <header>
+            <h2>JavaScript and Java</h2>
+        </header>
+        <p>JavaScript et Java sont similaires à certains égards mais fondamentalement différents à d’autres. Le langage JavaScript ressemble à Java mais ne possède pas le typage statique ni la vérification de type robuste de Java. JavaScript suit la plupart des syntaxes d'expression Java, des conventions de dénomination et des constructions de flux de contrôle de base, ce qui explique pourquoi il a été renommé de LiveScript en JavaScript.
+
+Contrairement au système de classes de compilation de Java construit par des déclarations, JavaScript prend en charge un système d'exécution basé sur un petit nombre de types de données représentant des valeurs numériques, booléennes et de chaîne. JavaScript dispose d'un modèle objet basé sur un prototype au lieu du modèle objet basé sur une classe plus courant. Le modèle basé sur un prototype fournit un héritage dynamique ; c'est-à-dire que ce qui est hérité peut varier pour les objets individuels. JavaScript prend également en charge les fonctions sans aucune exigence déclarative particulière. Les fonctions peuvent être des propriétés d'objets, s'exécutant comme des méthodes faiblement typées.
+
+JavaScript est un langage de forme très libre par rapport à Java. Vous n'êtes pas obligé de déclarer toutes les variables, classes et méthodes. Vous n'avez pas à vous soucier de savoir si les méthodes sont publiques, privées ou protégées, et vous n'avez pas à implémenter d'interfaces. Les variables, paramètres et types de retour de fonction ne sont pas explicitement typés.</p>
+       <ul>
+            <li> <p>Bonjour le monde</p></li>
+        </ul>
+        <code>// function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+        
+       
+    </section>
+
+    <section id="python_and_ruby" class="main-section">
+        <header>
+            <h2>Python and Ruby</h2>
+        </header>
+        <p>Paragraph 1</p>
+        <ul>
+            <li><p>Paragraph 2</p></li>
+       </ul>
+        <code>// Sample code example 2</code>
+       
+        
+        
+    </section>
+
+    <section id="html_and_css" class="main-section">
+        <header>
+            <h2>HTML and CSS</h2>
+        </header>
+        <p>Paragraph 1</p>
+        <ul>
+            <li><p>Paragraph 2</p></li>
+</ul>
+       
+        <code>// Sample code example 3</code>
+        
+    </section>
+
+    <section id="php_and_sql" class="main-section">
+        <header>
+            <h2>PHP and SQL</h2>
+        </header>
+        <p>Paragraph 1</p>
+        <ul>
+            <li><p>Paragraph 2</p></li>
+</ul>
+        
+        <code>// Sample code example 4</code>
+       
+    </section>
+
+    <section id="react_and_angular" class="main-section">
+        <header>
+            <h2>React and Angular</h2>
+        </header>
+        <p>Paragraph 1</p>
+        <ul>
+            <li><p>Paragraph 2</p></li>
+</ul>
+        
+        <code>// Sample code example 5</code>
+        
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+/* Nav link styles */
+.nav-link {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+}
+
+/* Main content styles */
+#main-doc {
+    margin-left: 220px; /* Adjust for navbar width */
+    padding: 20px;
+}
+
+/* Section styles */
+.main-section {
+    margin-bottom: 30px;
+}
+
+/* Code block styles */
+code {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    #navbar {
+        width: 100%; /* Make navbar full width */
+        position: static;
+        border-right: none;
+    }
+
+    #main-doc {
+        margin-left: 0; /* Remove margin for main content */
+        padding-top: 50px; /* Add padding for fixed navbar */
+    }
+}
+
+
+** end of undefined **
+

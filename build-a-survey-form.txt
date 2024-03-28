@@ -1,0 +1,155 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the form below to participate in our survey.</p>
+  </header>
+  <main>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" name="age" placeholder="Enter your age" min="18" max="120" required>
+      </div>
+      <div class="form-group">
+        <label for="dropdown">How did you hear about us?</label>
+        <select id="dropdown" name="how-heard">
+          <option value="friend">From a friend</option>
+          <option value="search">Through an online search</option>
+          <option value="social-media">On social media</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Gender:</label>
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male">
+        </div>
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+          <label for="other">Other</label>
+          <input type="radio" id="other" name="gender" value="other">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>What are your interests?</label>
+        <div>
+          <input type="checkbox" id="sports" name="interests" value="sports">
+          <label for="sports">Sports</label>
+        </div>
+        <div>
+          <input type="checkbox" id="music" name="interests" value="music">
+          <label for="music">Music</label>
+        </div>
+        <div>
+          <input type="checkbox" id="travel" name="interests" value="travel">
+          <label for="travel">Travel</label>
+        </div>
+        <div>
+          <input type="checkbox" id="food" name="interests" value="food">
+          <label for="food">Food</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="comments">Any additional comments?</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+  color: #666;
+}
+
+main {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+** end of undefined **
+

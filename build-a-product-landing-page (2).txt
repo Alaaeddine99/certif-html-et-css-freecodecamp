@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.kj4N-d8jK-FFVz0sjd2MFgHaE8&pid=Api&P=0&h=180" alt="Logo" id="header-img" 
+          style="max-height: 40px">
+      <a href="#section1" class="nav-link">Section 1</a>
+      <a href="#section2" class="nav-link">Section 2</a>
+      <a href="#section3" class="nav-link">Section 3</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1"> <!-- Ajoutez l'identifiant #section1 -->
+       <h2>À Propos</h2>
+        <p>Alaa eddine maamer j'ai 24 ans. Je suis un ingénieur informatique.</p>
+    </section>
+    <section id="section2"> <!-- Ajoutez l'identifiant #section2 -->
+      <h2>Travail</h2>
+        <p>Je suis actuellement à la recherche d'un emploi à temps plein.</p>
+    </section>
+    <section id="section3"> <!-- Ajoutez l'identifiant #section3 -->
+     <h2>Contact</h2>
+<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom"><br>
+            <label for="prenom">Prénom:</label><br>
+            <input type="text" id="prenom" name="prenom"><br>
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number"><br>
+            
+        <label for="number">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    </section>
+
+    <video id="video" controls>
+      <source src="https://youtu.be/XPv4EeB0PJ8?si=QVWfYYd0CMTyK71d" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#header-img {
+  width: 100px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 1000; /* Assurez-vous que le nav-bar apparaît au-dessus de tout autre contenu */
+}
+
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+#main {
+  display: flex; /* Utilisez Flexbox pour organiser les éléments enfants */
+  flex-wrap: wrap; /* Permettre aux éléments de passer à la ligne si nécessaire */
+  justify-content: space-around; /* Aligner les éléments horizontalement avec un espacement égal */
+}
+
+
+#video {
+  width: 100%;
+}
+
+#form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#email {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+
+** end of undefined **
+
